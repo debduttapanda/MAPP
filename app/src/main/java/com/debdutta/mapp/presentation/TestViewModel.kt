@@ -3,7 +3,7 @@ package com.debdutta.mapp.presentation
 import androidx.databinding.Bindable
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.viewModelScope
-import com.debdutta.mapp.domain.FetchUseCase
+import com.debdutta.core.domain.FetchUseCase
 import dagger.hilt.android.lifecycle.HiltViewModel
 import kotlinx.coroutines.flow.launchIn
 import kotlinx.coroutines.flow.onEach

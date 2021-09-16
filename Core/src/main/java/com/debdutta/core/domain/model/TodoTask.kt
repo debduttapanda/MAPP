@@ -1,8 +1,8 @@
-package com.debdutta.mapp.domain.model
+package com.debdutta.core.domain.model
 
 data class TodoTask(
     val completed: Boolean,
     val id: Int,
-    val title: String,
+    var title: String,
     val userId: Int
 )

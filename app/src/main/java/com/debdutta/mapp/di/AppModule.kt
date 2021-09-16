@@ -1,7 +1,7 @@
 package com.debdutta.mapp.di
 
 import com.debdutta.mapp.data.remote.api.FetchApi
-import com.debdutta.mapp.domain.FetchRepository
+import com.debdutta.core.domain.FetchRepository
 import com.debdutta.mapp.FetchRepositoryImpl
 import dagger.Module
 import dagger.Provides
